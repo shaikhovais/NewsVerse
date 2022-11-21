@@ -1,0 +1,42 @@
+.noResult {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ed7d31;
+  text-align: center;
+}
+
+.noResult img {
+  height: 120px;
+  width: 120px;
+}
+
+.noResult h1 {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.noResult h4 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .noResult {
+        margin: 0px 0px 30px;
+    }
+    .noResult img {
+        height: 80px;
+        width: 80px;
+    }
+
+  .noResult h1 {
+    font-size: 20px;
+  }
+
+  .noResult h4 {
+    font-size: 16px;
+  }
+}

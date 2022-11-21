@@ -1,0 +1,28 @@
+.topic {
+  margin-top: 3px;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: #ed7d31 0px 2px 5px -1px, #ed7d31 0px 1px 3px -1px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.selected {
+  color: white;
+  background-color: #043845;
+}
+
+.topic:hover {
+  color: #ed7d31;
+}
+
+@media screen and (max-width: 767px) {
+  .topic {
+    font-size: 12px;
+    padding: 3px;
+  }
+}

@@ -1,0 +1,24 @@
+.heading {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 20px;
+  height: 100%;
+}
+
+@media screen and (min-width: 250px) and (max-width: 767px) {
+  .heading .logo{
+    height: 70%;
+    width: 50%;
+  }
+}

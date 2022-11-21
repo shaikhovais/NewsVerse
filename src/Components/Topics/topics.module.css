@@ -1,0 +1,12 @@
+.topics {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+@media screen and (max-width: 1250px) {
+  .topics {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
